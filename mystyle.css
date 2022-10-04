@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+nav .logo{
+    margin-left: 50px;
+}
+nav .links{
+    margin-right: 50px;
+
+}
+nav .links a{
+    text-decoration: none;
+    color: hsl(216, 30%, 68%);
+    margin: 0 10px;
+}
+nav button{
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    border: 2px solid hsl(216, 30%, 68%) ;
+}
+header{
+    height: 500px;
+    background-color: hsl(256, 26%, 20%);
+}
+header .bg-left{
+/* margin-top: 200px; */
+}
+.header-info{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.header-info hr{
+    height: 1px;
+    width: 200px;
+    position: absolute;
+    margin: 70px;
+    background-color: white;
+    border: none;
+    
+}
+.header-info .header-text{
+    margin: 70px;
+    position: absolute;
+}
+.header-info .header-text h1{
+    color: white;
+    font-size: 40px ;
+    font-family: 'DM Serif Display', serif;
+}
+.header-info .header-text p{
+    font-family: 'Karla', sans-serif;
+}
+.header-right .bg-right{
+/* margin-left: 200px; */
+
+/* z-index: 9; */
+position: absolute;
+}
+ .family{
+    /* position: absolute; */
+/* height: 100px !important ; */
+
+    /* z-index: 9; */
+   /* margin-left: 200px; */
+
+}
