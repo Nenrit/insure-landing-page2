@@ -43,13 +43,13 @@ header{
 .header-info{
     display: flex;
 }
- hr{
+ .hr1{
     height: 1px;
     width: 200px;
     position: absolute;
     margin-top: 70px;
     left: 200px;
-    background-color: white;
+    background-color: hsl(216, 30%, 68%);
     border: none;
  }
 .left-background .bg-left{
@@ -95,4 +95,47 @@ margin-top: 200px;
 .bg-right{
     height: 300px;
     position: relative;
+}
+.more-info{
+    height: 400px;
+    margin-top: 150px;
+}
+.hr2{
+    height: 1px;
+    width: 200px;
+    position: absolute;
+    /* margin-top: 70px; */
+    /* left: 200px; */
+    background-color: hsl(216, 30%, 68%);
+    border: none;
+}
+.heading-info{
+position: absolute;
+margin-top: 30px 0;
+left: 200px;
+}
+.heading-info h1{
+margin: 30px 0;
+font-size: 50px ;
+font-family: 'DM Serif Display', serif;
+}
+.grid-container{
+    position: absolute;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+.grid{
+    height: 200px;
+    margin: 20px 50px;
+    padding: 10px;
+}
+.grid-info{
+    margin-top: 10px;
+    padding: 5px;
+}
+.grid-info p{
+    margin-top: 10px;
 }
