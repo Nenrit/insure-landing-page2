@@ -139,3 +139,36 @@ font-family: 'DM Serif Display', serif;
 .grid-info p{
     margin-top: 10px;
 }
+.how-we-work{
+    height: 200px;
+    background-color: hsl(256, 26%, 20%);
+    width: 1000px;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.hww-img{
+    height: 200px;
+}
+.hww-info{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+.hww-text{
+    font-size: 23px ;
+    color: white;
+    font-family: 'DM Serif Display', serif;
+}
+.hww-info button{
+    height: 40px;
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    left: 300px;
+}
